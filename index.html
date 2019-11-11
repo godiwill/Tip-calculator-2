@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>TIP CALCULATOR
+        	@MUKISAS'
+        </h1>
+        <div id="calculator">
+          <form>
+            <p>Your Bill Amount
+              <p>
+                Shs <input id="billamt" type="text" placeholder="Bill Amount">
+      
+                <p>Rate The Service
+                  <p>
+                    <select id="serviceQual">
+                  <option disabled selected value="0">-- Rating --</option>
+                  <option value="0.25">25&#37; &#45; Fair</option>
+                  <option value="0.5">50&#37; &#45; Good</option>
+                  <option value="0.75">75&#37; &#45; Favourable</option>
+                  <option value="0.10">100&#37; &#45; Out Standing</option>
+              </select>
+      
+          </form>
+          <p>For?</p>
+          <input id="peopleamt" type="text" placeholder="Number of People"> 
+          <button type="button" id="calculate">Calculate!</button>
+      
+        </div>
+        <!--calculator end-->
+        <div id="totalTip">
+          <sup>Shs</sup><span id="tip">0.00</span>
+          <small id="each">each</small>
+        </div>
+        <!--totalTip end-->
+      
+      </div>
+      <!--container end-->
+      
+      
+      <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
